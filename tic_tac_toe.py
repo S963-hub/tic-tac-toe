@@ -9,6 +9,9 @@ class Player:
         self.name = ""
         self.symbol = ""
     
+
+
+    
     def choose_name(self):
         while True:
             name = input("please Enter your name\n")
