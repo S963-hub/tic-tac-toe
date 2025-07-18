@@ -1,4 +1,5 @@
-months = {
+def new_func():
+    months = {
     1: "January",
     2: "February",
     3: "March",
@@ -14,7 +15,7 @@ months = {
 }
 
 
-for Key, Values in months.items(): 
-  print(f"{Key}. ayin ingilizcesini : {Values}")
+    for Key, Values in months.items(): 
+      print(f"{Key}. ayin ingilizcesini : {Values}")
 
-
+new_func()
